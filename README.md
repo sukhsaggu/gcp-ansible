@@ -31,7 +31,7 @@ Playbook run-time : ~ 5 mins
 This playbook will:
 
 1. Launch an google compute engine rhel instance
-2. Connect via ssh to the public dns name of the new instance
+2. Connect via ssh to the **external IP** of the new instance
 3. Gather facts on the instance
 4. Reboot the instance
 5. Terminate the instance
